@@ -6,6 +6,7 @@ port: 443
 server: fake
 ↓CconvertLead [transactions.XmlHttpTransaction]: 
   ↑default: true
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -39,6 +40,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CconvertLead.xml
@@ -223,6 +225,7 @@ server: fake
           - ↑pLocalPart: boolean
           - ↑pNamespace: http://www.w3.org/2001/XMLSchema
 ↓Ccreate [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -256,6 +259,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Ccreate.xml
@@ -462,6 +466,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓Cdelete [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -495,6 +500,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cdelete.xml
@@ -658,6 +664,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CdescribeAppMenu [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -691,6 +698,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeAppMenu.xml
@@ -755,6 +763,7 @@ server: fake
           - ↑pLocalPart: AppMenuType
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CdescribeApprovalLayout [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -788,6 +797,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeApprovalLayout.xml
@@ -851,6 +861,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBEAPPROVALLAYOUT_APPROVALPROCESSNAMES
 ↓CdescribeAvailableQuickActions [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -884,6 +895,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeAvailableQuickActions.xml
@@ -947,6 +959,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBEAVAILABLEQUICKACTIONS_CONTEXTTYPE
 ↓CdescribeCompactLayouts [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -980,6 +993,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeCompactLayouts.xml
@@ -1049,6 +1063,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CdescribeDataCategoryGroups [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1082,6 +1097,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeDataCategoryGroups.xml
@@ -1145,6 +1161,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBEDATACATEGORYGROUPS_SOBJECTTYPE
 ↓CdescribeDataCategoryGroupStructures [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1178,6 +1195,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeDataCategoryGroupStructures.xml
@@ -1257,6 +1275,7 @@ server: fake
           - ↑pLocalPart: boolean
           - ↑pNamespace: http://www.w3.org/2001/XMLSchema
 ↓CdescribeFlexiPages [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1290,6 +1309,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeFlexiPages.xml
@@ -1348,6 +1368,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBEFLEXIPAGES_FLEXIPAGES
 ↓CdescribeGlobal [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1381,6 +1402,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeGlobal.xml
@@ -1434,6 +1456,7 @@ server: fake
     httpMethod: POST
     httpName: HEADER_SESSIONHEADER_SESSIONID
 ↓CdescribeGlobalTheme [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1467,6 +1490,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeGlobalTheme.xml
@@ -1520,6 +1544,7 @@ server: fake
     httpMethod: POST
     httpName: HEADER_SESSIONHEADER_SESSIONID
 ↓CdescribeLayout [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1553,6 +1578,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeLayout.xml
@@ -1622,6 +1648,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CdescribeQuickActions [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1655,6 +1682,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeQuickActions.xml
@@ -1718,6 +1746,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBEQUICKACTIONS_QUICKACTIONS
 ↓CdescribeSearchLayouts [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1751,6 +1780,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSearchLayouts.xml
@@ -1809,6 +1839,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBESEARCHLAYOUTS_SOBJECTTYPE
 ↓CdescribeSearchScopeOrder [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1842,6 +1873,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSearchScopeOrder.xml
@@ -1895,6 +1927,7 @@ server: fake
     httpMethod: POST
     httpName: HEADER_SESSIONHEADER_SESSIONID
 ↓CdescribeSObject [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -1928,6 +1961,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSObject.xml
@@ -1991,6 +2025,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBESOBJECT_SOBJECTTYPE
 ↓CdescribeSObjects [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2024,6 +2059,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSObjects.xml
@@ -2087,6 +2123,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBESOBJECTS_SOBJECTTYPE
 ↓CdescribeSoftphoneLayout [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2120,6 +2157,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSoftphoneLayout.xml
@@ -2173,6 +2211,7 @@ server: fake
     httpMethod: POST
     httpName: HEADER_SESSIONHEADER_SESSIONID
 ↓CdescribeTabs [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2206,6 +2245,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeTabs.xml
@@ -2259,6 +2299,7 @@ server: fake
     httpMethod: POST
     httpName: HEADER_SESSIONHEADER_SESSIONID
 ↓CdescribeTheme [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2292,6 +2333,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeTheme.xml
@@ -2350,6 +2392,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_DESCRIBETHEME_SOBJECTTYPE
 ↓CemptyRecycleBin [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2383,6 +2426,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CemptyRecycleBin.xml
@@ -2420,6 +2464,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CgetDeleted [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2453,6 +2498,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CgetDeleted.xml
@@ -2506,6 +2552,7 @@ server: fake
           - ↑pLocalPart: dateTime
           - ↑pNamespace: http://www.w3.org/2001/XMLSchema
 ↓CgetServerTimestamp [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2539,6 +2586,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CgetServerTimestamp.xml
@@ -2565,6 +2613,7 @@ server: fake
     httpMethod: POST
     httpName: HEADER_SESSIONHEADER_SESSIONID
 ↓CgetUpdated [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2598,6 +2647,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CgetUpdated.xml
@@ -2651,6 +2701,7 @@ server: fake
           - ↑pLocalPart: dateTime
           - ↑pNamespace: http://www.w3.org/2001/XMLSchema
 ↓CgetUserInfo [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2684,6 +2735,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CgetUserInfo.xml
@@ -2710,6 +2762,7 @@ server: fake
     httpMethod: POST
     httpName: HEADER_SESSIONHEADER_SESSIONID
 ↓CinvalidateSessions [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2743,6 +2796,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CinvalidateSessions.xml
@@ -2774,6 +2828,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_INVALIDATESESSIONS_SESSIONIDS
 ↓Clogin [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2807,6 +2862,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Clogin.xml
@@ -2860,6 +2916,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_LOGIN_PASSWORD
 ↓Clogout [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2893,6 +2950,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Clogout.xml
@@ -2919,6 +2977,7 @@ server: fake
     httpMethod: POST
     httpName: HEADER_SESSIONHEADER_SESSIONID
 ↓Cmerge [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -2952,6 +3011,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cmerge.xml
@@ -3147,6 +3207,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CperformQuickActions [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -3180,6 +3241,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CperformQuickActions.xml
@@ -3413,6 +3475,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓Cprocess [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -3446,6 +3509,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cprocess.xml
@@ -3559,6 +3623,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓Cquery [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -3592,6 +3657,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cquery.xml
@@ -3672,6 +3738,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_QUERY_QUERYSTRING
 ↓CqueryAll [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -3705,6 +3772,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CqueryAll.xml
@@ -3747,6 +3815,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_QUERYALL_QUERYSTRING
 ↓CqueryMore [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -3780,6 +3849,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CqueryMore.xml
@@ -3828,6 +3898,7 @@ server: fake
           - ↑pLocalPart: QueryLocator
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CresetPassword [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -3861,6 +3932,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CresetPassword.xml
@@ -3931,6 +4003,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓Cretrieve [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -3964,6 +4037,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cretrieve.xml
@@ -4060,6 +4134,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CretrieveQuickActionTemplates [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -4093,6 +4168,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CretrieveQuickActionTemplates.xml
@@ -4167,6 +4243,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓Csearch [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -4200,6 +4277,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Csearch.xml
@@ -4258,6 +4336,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_SEARCH_SEARCHSTRING
 ↓CsendEmail [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -4291,6 +4370,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CsendEmail.xml
@@ -4376,6 +4456,7 @@ server: fake
           - ↑pLocalPart: boolean
           - ↑pNamespace: http://www.w3.org/2001/XMLSchema
 ↓CsendEmailMessage [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -4409,6 +4490,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CsendEmailMessage.xml
@@ -4446,6 +4528,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓CsetPassword [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -4479,6 +4562,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CsetPassword.xml
@@ -4521,6 +4605,7 @@ server: fake
     httpMethod: POST
     httpName: BODY_SETPASSWORD_PASSWORD
 ↓Cundelete [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -4554,6 +4639,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cundelete.xml
@@ -4673,6 +4759,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓Cupdate [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -4706,6 +4793,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cupdate.xml
@@ -4934,6 +5022,7 @@ server: fake
           - ↑pLocalPart: ID
           - ↑pNamespace: urn:partner.soap.sforce.com
 ↓Cupsert [transactions.XmlHttpTransaction]: 
+  accessibility: Public
   errorOnSoapFault: false
   httpParameters: 
     - xmlizable: 
@@ -4967,6 +5056,7 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
+  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cupsert.xml

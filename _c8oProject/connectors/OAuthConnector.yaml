@@ -5,6 +5,8 @@ port: 443
 server: login.salesforce.com
 ↓GetTokens [transactions.JsonHttpTransaction]: 
   ↑default: true
+  accessibility: Public
+  httpPool: global
   httpVerb: POST
   ↓grant_type [variables.RequestableHttpVariable-1402041481649]: 
     description: grant_type
