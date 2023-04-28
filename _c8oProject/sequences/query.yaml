@@ -40,13 +40,81 @@ comment: |
             - ↑value: ./queryString/text()
   ↓__removeNamespaces [variables.StepVariable-1402681325569]: 
     value: true
-↓Copy [steps.XMLCopyStep-1402681325577]: 
-  sourceDefinition: 
+↓result [steps.JsonObjectStep-1682697152881]: 
+  key: 
     - xmlizable: 
-      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
-      - com.twinsoft.convertigo.beans.common.XMLVector: 
-        - java.lang.String: 
-          - ↑value: 1402681325492
-        - java.lang.String: 
-          - ↑value: ./document/queryResponse/result
+      - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+      - SmartType: 
+        - ↑mode: PLAIN
+        - →→: result
+  ↓done [steps.JsonFieldStep-1682697169196]: 
+    key: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+        - SmartType: 
+          - ↑mode: PLAIN
+          - →→: done
+    value: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+        - SmartType: 
+          - ↑mode: SOURCE
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1402681325492
+            - java.lang.String: 
+              - ↑value: ./document/queryResponse/result/done/text()
+  ↓records [steps.JsonArrayStep-1682697193723]: 
+    key: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+        - SmartType: 
+          - ↑mode: PLAIN
+          - →→: records
+    ↓Iterator [steps.IteratorStep-1682697614428]: 
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1402681325492
+            - java.lang.String: 
+              - ↑value: ./document/queryResponse/result/records
+      ↓object [steps.JsonObjectStep-1682697697324]: 
+        ↓Copy [steps.XMLCopyStep-1682697294940]: 
+          sourceDefinition: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+              - com.twinsoft.convertigo.beans.common.XMLVector: 
+                - java.lang.String: 
+                  - ↑value: 1682697614428
+                - java.lang.String: 
+                  - ↑value: ./*
+  ↓size [steps.JsonFieldStep-1682697211395]: 
+    key: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+        - SmartType: 
+          - ↑mode: PLAIN
+          - →→: size
+    value: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+        - SmartType: 
+          - ↑mode: SOURCE
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1402681325492
+            - java.lang.String: 
+              - ↑value: ./document/queryResponse/result/size/text()
 ↓queryString [variables.RequestableVariable-1402684885119]: 
+↓testOK [core.TestCase]: 
+  ↓queryString [variables.TestCaseVariable-1682696749425]: 
+    value: |
+      SELECT LastName, Phone from Contact
+      
+↓TestONE [core.TestCase]: 
+  ↓queryString [variables.TestCaseVariable-1682697821667]: 
+    value: |
+      SELECT LastName, Phone from Contact WHERE LastName = 'Barr'
+      
