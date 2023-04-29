@@ -2,6 +2,39 @@ comment: |
   Login. Must be used before any other sequence. returns the Salesforce UserID or error
   
 ↓Input_variables [steps.InputVariablesStep-1399555414527]: 
+↓GetSessionID [steps.SessionGetStep-1682748057797]: 
+  key: SessionID
+  output: false
+↓IfExist [steps.IfExistStep-1682748118020]: 
+  comment: Check if we already have a Salesforce Session ID
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1682748057797
+        - java.lang.String: 
+          - ↑value: ./expression/text()
+  ↓Session [steps.JsonFieldStep-1682748248810]: 
+    comment: Yes we have one, so no use to login again
+    key: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+        - SmartType: 
+          - ↑mode: PLAIN
+          - →→: Session
+    value: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+        - SmartType: 
+          - ↑mode: SOURCE
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1682748057797
+            - java.lang.String: 
+              - ↑value: ./expression/text()
+  ↓Return [steps.ReturnStep-1682748228818]: 
+    comment: Just return
 ↓Call_Transaction [steps.TransactionStep-1399555393182]: 
   connectionStringDefinition: 
     - xmlizable: 
@@ -86,17 +119,6 @@ comment: |
               - java.lang.String: 
                 - ↑value: ./document/loginResponse/result/sessionId/text()
       key: SessionID
-    ↓Set_authenticated_user [steps.SetAuthenticatedUserStep-1401962363057]: 
-      userid: 
-        - xmlizable: 
-          - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
-          - SmartType: 
-            - ↑mode: SOURCE
-            - com.twinsoft.convertigo.beans.common.XMLVector: 
-              - java.lang.String: 
-                - ↑value: 1399555393182
-              - java.lang.String: 
-                - ↑value: ./document/loginResponse/result/userId/text()
     ↓Copy [steps.XMLCopyStep-1401962363242]: 
       sourceDefinition: 
         - xmlizable: 
