@@ -40,7 +40,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CconvertLead.xml
@@ -259,7 +258,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Ccreate.xml
@@ -500,7 +498,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cdelete.xml
@@ -698,7 +695,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeAppMenu.xml
@@ -797,7 +793,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeApprovalLayout.xml
@@ -895,7 +890,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeAvailableQuickActions.xml
@@ -993,7 +987,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeCompactLayouts.xml
@@ -1097,7 +1090,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeDataCategoryGroups.xml
@@ -1195,7 +1187,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeDataCategoryGroupStructures.xml
@@ -1309,7 +1300,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeFlexiPages.xml
@@ -1402,7 +1392,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeGlobal.xml
@@ -1490,7 +1479,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeGlobalTheme.xml
@@ -1578,7 +1566,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeLayout.xml
@@ -1682,7 +1669,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeQuickActions.xml
@@ -1780,7 +1766,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSearchLayouts.xml
@@ -1873,7 +1858,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSearchScopeOrder.xml
@@ -1961,7 +1945,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSObject.xml
@@ -2059,7 +2042,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSObjects.xml
@@ -2157,7 +2139,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeSoftphoneLayout.xml
@@ -2245,7 +2226,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeTabs.xml
@@ -2333,7 +2313,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CdescribeTheme.xml
@@ -2426,7 +2405,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CemptyRecycleBin.xml
@@ -2498,7 +2476,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CgetDeleted.xml
@@ -2586,7 +2563,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CgetServerTimestamp.xml
@@ -2647,7 +2623,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CgetUpdated.xml
@@ -2735,7 +2710,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CgetUserInfo.xml
@@ -2796,7 +2770,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CinvalidateSessions.xml
@@ -2862,7 +2835,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Clogin.xml
@@ -2950,7 +2922,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Clogout.xml
@@ -3011,7 +2982,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cmerge.xml
@@ -3241,7 +3211,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CperformQuickActions.xml
@@ -3509,7 +3478,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cprocess.xml
@@ -3657,7 +3625,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cquery.xml
@@ -3772,7 +3739,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CqueryAll.xml
@@ -3849,7 +3815,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CqueryMore.xml
@@ -3932,7 +3897,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CresetPassword.xml
@@ -4037,7 +4001,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cretrieve.xml
@@ -4168,7 +4131,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CretrieveQuickActionTemplates.xml
@@ -4277,7 +4239,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Csearch.xml
@@ -4370,7 +4331,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CsendEmail.xml
@@ -4490,7 +4450,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CsendEmailMessage.xml
@@ -4562,7 +4521,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/CsetPassword.xml
@@ -4639,7 +4597,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cundelete.xml
@@ -4793,7 +4750,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cupdate.xml
@@ -5056,7 +5012,6 @@ server: fake
               - ↑value: user-agent
             - java.lang.String: 
               - ↑value: Convertigo EMS 7.1.0_beta (build 37039)
-  httpPool: global
   httpVerb: POST
   ignoreSoapEnveloppe: true
   requestTemplate: /soap-templates/SoapBinding/Cupsert.xml
